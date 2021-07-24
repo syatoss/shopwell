@@ -1,0 +1,83 @@
+.LoginPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  width: 60%;
+  border: 1.5px black solid;
+  border-radius: 14px;
+  background-color: rgba(0,0,255,0.2);
+
+}
+
+.LoginPage-head {
+  font-size: 2em;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  justify-self: flex-start;
+  margin-bottom: 10%;
+  margin-top: -15%;
+}
+
+.LoginPage-input {
+  width: 70%;
+  height: 10%;
+  font-size: 1.5em;
+  margin-bottom: 5%;
+  border-radius: 14px;
+  border: grey solid 1px;
+  padding-left: 3%;
+}
+
+.LoginPage-horisontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: space-around;
+  width: 70%;
+  height: 10%;
+  font-size: 1.5em;
+  margin-bottom: -15%;
+}
+
+
+.LoginPage-loginBtn {
+  font-size: 0.8em;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border: grey 1px solid;
+  background-color: white;
+  border-radius: 14px;
+  width:20%;
+  color: darkslategray;
+}
+
+
+.LoginPage-input:focus,  .LoginPage-loginBtn:focus {
+  outline: none !important;
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
